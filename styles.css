@@ -299,7 +299,7 @@ span{
 }
 .education {
     padding: 100px 15px;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .education h2{
@@ -489,7 +489,7 @@ span{
 
 .projects {
     padding: 100px 15px;
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
 }
 
 .projects .heading {
@@ -783,4 +783,63 @@ span{
     .services-container{
         grid-template-columns: repeat(1,1fr);
     }
+
+    /* For devices with max width of 895px */
+@media (max-width: 895px) {
+
+    .education {
+        padding: 70px 10px;
+    }
+
+    .timeline-items::before {
+        width: 3px; 
+    }
+
+    .timeline-item {
+        width: 80%; 
+        padding: 8px;
+        margin: 15px 0; 
+    }
+
+    .timeline-dot {
+        height: 18px;
+        width: 18px;
+        left: 0;
+        transform: none;
+    }
+
+    .timeline-content {
+        padding: 20px 30px; 
+        border-radius: 3rem;
+    }
+
+    .timeline-content h3 {
+        font-size: 18px; 
+    }
+
+    .timeline-content p {
+        font-size: 14px; 
+        line-height: 20px;
+    }
+
+    .timeline-date {
+        font-size: 18px;
+        top: 10px;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-dot {
+        left: 0;
+    }
+    .timeline-item:nth-child(even) .timeline-dot{
+        left: -25%;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-date,
+    .timeline-item:nth-child(even) .timeline-date {
+        top: 10px;
+        left: 0; 
+        right: auto;
+    }
+}
+
 }
