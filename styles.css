@@ -810,9 +810,9 @@ span{
     .services-container{
         grid-template-columns: repeat(1,1fr);
     }
-
+}
     /* For devices with max width of 895px */
-@media (max-width: 895px) {
+@media (max-width: 456px) {
 
     .education {
         padding: 70px 10px;
@@ -869,4 +869,3 @@ span{
     }
 }
 
-}
