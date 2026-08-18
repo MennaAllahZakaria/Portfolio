@@ -1,76 +1,45 @@
-# Portfolio Website
+# Menna Zakaria — Portfolio
 
-Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as a developer. It is built to reflect my growth and accomplishments in the world of web development.
+A responsive personal portfolio for Menna Zakaria, a Backend Developer focused on reliable APIs, real-time systems, and full-stack products.
 
-## 🚀 Live Demo
+## Live site
 
-You can view the live site here: [Live Portfolio](https://portfolio-menna-zakaria.netlify.app/)
+[portfolio-menna-zakaria.netlify.app](https://portfolio-menna-zakaria.netlify.app/)
 
-## ✨ Features
+## What changed
 
-- **Responsive Design**: Optimized for both desktop and mobile devices using modern web design practices.
-- **Education Section**: An overview of my education with an interactive design.
-- **Project Showcase**: Highlights projects that demonstrate my abilities, complete with descriptions and links to GitHub repos and live demos.
-- **Skills Section**: An overview of my technical skills with an interactive design.
-- **Contact Form**: A simple form allowing visitors to get in touch with me.
+The portfolio now uses a dark editorial visual system with a near-black green base, warm off-white typography, mint accents, restrained motion, and a clearer project hierarchy. ORB, TrackAdemic, and CareNest are presented as featured case studies, while additional projects can be explored through backend, full-stack, and frontend filters.
 
+The page is fully responsive, includes a working mobile navigation menu, animated section reveals, accessible image descriptions, SEO and Open Graph metadata, direct contact links, and a focused toolkit section for Menna's backend and full-stack skills.
 
-## 🛠 Technologies Used
+## Stack
 
-- **Frontend**: 
-  - HTML5
-  - CSS3 with Flexbox and Grid Layout
-  - JavaScript (ES6+)
-  - [Bootstrap](https://getbootstrap.com/) for responsive design
-  - [Boxicons](https://boxicons.com/) for icons
-  - CSS Custom Properties (Variables) for theming
-- **Deployment**:
-  - [Netlify](https://www.netlify.com/) for continuous deployment and hosting
+The site is intentionally lightweight and static. It uses semantic HTML5, custom CSS with responsive Grid and Flexbox layouts, vanilla JavaScript for navigation, filtering, scroll state, and reveal animations, Google Fonts, and Boxicons. It is suitable for continuous deployment on Netlify.
 
-## 📂 Project Structure
-```bash
-├── /images # Images, icons, and other static assets
-├── styles.css # All CSS files and custom styles
-├── main.js # JavaScript file for interactivity 
-├── index.html # Main entry point of the website
-├── README.md # Project documentation
-```
-## 💻 How to Run Locally
-
-1. Clone the repository:
+## Run locally
 
 ```bash
 git clone https://github.com/MennaAllahZakaria/Portfolio.git
-```
-2. Navigate to the project directory:
-```bash
 cd Portfolio
+npx --yes http-server -p 4173
 ```
 
-3. Open index.html in your browser:
-```bash
-open index.html
+Then open `http://localhost:4173` in a browser. The project can also be opened directly through `index.html`, although a local server is recommended for the most accurate browser behavior.
+
+## Project structure
+
+```text
+├── index.html       # Page structure, content, metadata, and project links
+├── styles.css       # Design system, responsive layouts, and animations
+├── main.js          # Navigation, filters, active sections, and reveal behavior
+├── images/          # Portfolio and project imagery
+└── README.md        # Project documentation
 ```
 
-## 🚧 Future Enhancements
-- Blog Section: A section to post technical articles and tutorials.
-- Testimonials: Add testimonials from colleagues or clients.
-- More Animations: Enhance with subtle animations and transitions.
+## Featured work
 
-## 👨‍💻 Author
-Menna Allah Zakaria
+The selected work section highlights ORB, a real-time educational marketplace; TrackAdemic, a full-stack learning platform; and CareNest, a maternal and newborn care platform. The site also links to additional APIs and applications from Menna's public GitHub profile.
 
-If you'd like to get in touch, feel free to reach out via the contact form on my portfolio, or connect with me through LinkedIn.
+## Author
 
-## 📝 License
-This project is open-source and available under the MIT License.
-
-
-### Key Sections:
-- **Project overview**: Brief description and features of the portfolio.
-- **Technologies used**: Tools and technologies utilized.
-- **Live demo link**: Easy access to view the live portfolio.
-- **How to run locally**: Instructions for cloning and viewing the project.
-- **Future enhancements**: Potential features or improvements.
-
-Feel free to customize this template based on your preferences!🩵
+**Menna Zakaria** — [GitHub](https://github.com/MennaAllahZakaria) · [LinkedIn](https://www.linkedin.com/in/menna-zakaria-) · [Email](mailto:mennazakaria2003@gmail.com)
