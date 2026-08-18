@@ -3,367 +3,203 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menna Zakaria</title>
-    <link rel="icon" href="./images/me.jpg" type="image/x-icon">
+    <meta name="description" content="Menna Zakaria — Backend Developer building reliable APIs, real-time systems, and full-stack products.">
+    <meta name="theme-color" content="#0b1110">
+    <meta property="og:title" content="Menna Zakaria | Backend Developer">
+    <meta property="og:description" content="Backend Developer building reliable APIs, real-time systems, and thoughtful full-stack products.">
+    <meta property="og:image" content="./images/me.jpg">
+    <title>Menna Zakaria | Backend Developer</title>
+    <link rel="icon" href="./images/me.jpg" type="image/jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    <header class="header">
-        <a href="#home" class="logo">Menna 
-            <span>Zakaria</span>
+    <div class="site-noise" aria-hidden="true"></div>
+    <header class="site-header" id="site-header">
+        <a href="#home" class="brand" aria-label="Menna Zakaria home">
+            <span class="brand-mark">MZ</span>
+            <span class="brand-name">Menna <em>Zakaria</em></span>
         </a>
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#education">Education</a>
-            <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+            <i class="bx bx-menu"></i>
+        </button>
+        <nav class="nav" id="site-nav" aria-label="Primary navigation">
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#toolkit">Toolkit</a>
+            <a href="#journey">Journey</a>
+            <a href="#contact" class="nav-cta">Let's talk <i class="bx bx-arrow-up-right"></i></a>
         </nav>
     </header>
 
-    <section class="home" id="home">
-        <div class="home-content">
-            <h1>Hello, It's <span>Menna Allah</span></h1>
-            <h3 class="text-animation">I'm a <span></span></h3>
-
-            <p>
-                I'm Graduated from Faculty of Computer Science & Informations at Suez canal University.<br/>
-                I'm a passionate and dedicated student, always eager to learn new skills and develop my skills as a developer.<br/>
-                I am a competitive programmer at Codeforces, Atcoder, Leetcode, Codechef.<br/>
-                I'm a Back-End Developer with experience for +2 years (NodeJs).<br/>
-                Experience is to create APIs and dealing with Databases.
-            </p>
-            <div class="social-icons">
-                <a href="https://github.com/MennaAllahZakaria" target="_blank"><i class='bx bxl-github'></i></a>
-                <a href="https://www.linkedin.com/in/menna-zakaria-476220239/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://www.facebook.com/mennazakaria0/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                <a href="https://twitter.com/MennaZekooo" target="_blank"><i class='bx bxl-twitter'></i></a>
-                <a href="mailto:mennazakaria2003@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>   
-            </div>
-            <div class="btn-group">
-                <a href="https://drive.google.com/file/d/129rRKAe_MH9rbw6oe6cNAgr7TSK6YlEv/view?usp=drive_link" target="_blank" class="btn">CV</a>
-                <a href="#contact" class="btn"> Contact</a>
-                
-            </div>
-        </div>
-        <div class="home-img">
-            <img src="./images/me.jpg" alt="">
-        </div>
-
-    </section>
-    
-    <section class="education" id="education">
-        <h2 class="heading">Education</h2>
-        <div class="timeline-items">
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2021-2025</div>
-                <div class="timeline-content">
-                    <h3>College</h3>
-                    <p>Forth year at Faculty of Computers & Informatics at Suez Canal University.</p>
+    <main>
+        <section class="hero section-shell" id="home">
+            <div class="hero-copy reveal">
+                <p class="eyebrow"><span class="status-dot"></span> Available for meaningful builds</p>
+                <h1>Building the <span>systems</span> behind useful products.</h1>
+                <p class="hero-lede">I'm Menna, a Backend Developer who turns complex product ideas into dependable APIs, real-time experiences, and full-stack platforms.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#work">Explore my work <i class="bx bx-arrow-down-right"></i></a>
+                    <a class="text-link" href="mailto:mennazakaria2003@gmail.com">Start a conversation <i class="bx bx-right-arrow-alt"></i></a>
+                </div>
+                <div class="hero-meta">
+                    <span><strong>01</strong> Backend first</span>
+                    <span><strong>02</strong> Product minded</span>
+                    <span><strong>03</strong> Always learning</span>
                 </div>
             </div>
-    
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2024</div>
-                <div class="timeline-content">
-                    <h3>Training</h3>
-                    <p>ITI Front-end advanced with (React) traning</p>
+            <div class="hero-visual reveal reveal-delay">
+                <div class="portrait-frame">
+                    <div class="portrait-glow"></div>
+                    <img src="./images/me.jpg" alt="Portrait of Menna Zakaria" class="portrait">
+                    <span class="portrait-label label-top">NODE / API / DATA</span>
+                    <span class="portrait-label label-bottom">PORT SAID · EGYPT</span>
+                </div>
+                <div class="orbit-card orbit-card-top"><i class="bx bx-code-alt"></i><span>Clean architecture</span></div>
+                <div class="orbit-card orbit-card-bottom"><i class="bx bx-radio-circle-marked"></i><span>Real-time systems</span></div>
+            </div>
+            <div class="scroll-cue"><span>Scroll to explore</span><i class="bx bx-down-arrow-alt"></i></div>
+        </section>
+
+        <section class="about section-shell section-grid" id="about">
+            <div class="section-intro reveal">
+                <p class="eyebrow">01 / About me</p>
+                <h2>Thoughtful engineering, from the first endpoint to the final experience.</h2>
+            </div>
+            <div class="about-content reveal reveal-delay">
+                <p class="lead-paragraph">I build the parts users may not see, but always feel: APIs that are easy to integrate, data models that scale with the product, and real-time flows that make an experience feel alive.</p>
+                <p>My strongest lane is Node.js backend development, while my full-stack work has taught me how good systems connect to clear interfaces and real product needs. I enjoy translating a rough idea into a structured, reliable product.</p>
+                <div class="about-facts">
+                    <div><span class="fact-number">20+</span><span>APIs delivered in ORB</span></div>
+                    <div><span class="fact-number">2nd</span><span>Place in ORB hackathon sprint</span></div>
+                    <div><span class="fact-number">2025</span><span>CS graduate with honors</span></div>
                 </div>
             </div>
-    
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2023</div>
-                <div class="timeline-content">
-                    <h3>Training</h3>
-                    <p>ITI Backend with nodeJs & mongoDB traning</p>
+        </section>
+
+        <section class="work section-shell" id="work">
+            <div class="section-heading reveal">
+                <div>
+                    <p class="eyebrow">02 / Selected work</p>
+                    <h2>A few things I've built.</h2>
                 </div>
-            </div>
-    
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2022</div>
-                <div class="timeline-content">
-                    <h3>Training</h3>
-                    <p>El-Masrya Mobile application devolpment with c#</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="services" id="services">
-        <h2 class="heading">Services</h2>
-        <div class="services-container">
-
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Back-End Developer</h4>
-                    <p> I'm Back-End Developer with (NodeJs) <br/>
-                        I learn how to create APIs and how to dealing with Databases.<br />
-                        I learn about express and mongoDB and nest .<br />
-                        I have Deal with VS & Android Studio & MatLap & Postman and mongoDBCompass and etc...
-                    </p>
-                </div>
+                <p class="section-note">A selection of backend systems and full-stack products, built with care for the details that make them reliable.</p>
             </div>
 
-            <div class="service-box">
-            <div class="service-info">
-                <h4>Front-End Developer</h4>
-                <p> I'm Front-End Developer with (React) <br/>
-                    I learn how to create dynamic UI and how to dealing with APIs.<br />
-                    I learn about React Router, Redux, and CSS Grid & etc...<br />
-                    I have Deal with VS & React Developer Tools & etc...<br/>
-                    I still learning about this track (in prograss...)
-                </p>
-            </div>
-        </div>
-
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>competitive programmer</h4>
-                    <p> I am a competitive programmer at Codeforces, Atcoder, Leetcode, Codechef , HackerRank.<br />
-                        I participated in ECPC for 2 years (2022 - 2023)
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="skills">
-            <h2 class="heading">Skills</h2>
-            <i class='bx bxl-html5'></i>
-            <i class='bx bxl-css3'></i>
-            <i class='bx bxl-javascript'></i>
-            <i class='bx bxl-bootstrap'></i>
-            <i class='bx bxl-nodejs'></i>
-            <i class='bx bxl-mongodb'></i>
-            <i class='bx bxl-typescript'></i>
-            <i class='bx bxl-java'></i>
-            <i class='bx bxl-c-plus-plus'></i>
-            <i class='bx bxl-python' ></i>
-            <i class='bx bxl-git'></i>
-            <i class='bx bxl-github'></i>
-            <i class='bx bxl-netlify'></i>
-            <i class='bx bxl-visual-studio'></i>
-        </div>
-            
-    </section>
-
-
-    <section class="projects" id="projects">
-        <h2 class="heading">My Projects</h2>
-        <div class="project-list">
-
-            <div class="project-item">
-                <h3>CareNast Graduation Project</h3>
-                <img src="./images/carenest.jpg" alt="carenest Image" class="project-image">
-                        <p>What powers CareNest behind the scenes?
-
-                            - Built with Node.js for a fast, scalable, and event-driven backend
-                            - MongoDB as our NoSQL database for flexible, schema-less data like baby growth records and AI cry results
-                            - Firebase for real-time messaging and push notifications using FCM tokens
-                            - Cloudinary to handle media storage efficiently
-                            - Nodemailer for secure email verification and password reset flows
-                            - APIs thoroughly tested using Postman
-                            - Deployed on Vercel for a smooth serverless experience
-                            - Organized using MVC architecture to keep the codebase clean and scalable
-                        </p>
-                <a href="https://carenestfinal.vercel.app/" target="_blank">View wep site</a>
-                <a href="https://github.com/Advanced-Infant-Care-Technology/Backend" target="_blank">View GitHub repo</a>
-
-                
-
-            </div>
-            <div class="project-item">
-                <h3>Learnfinity  API</h3>
-                <img src="./images/learnfinity.png" alt="Learnfinity  API Image" class="project-image">
-                <p>Learnfinity is a comprehensive backend API for an e-learning platform, designed to manage users, courses, lessons, quizzes, enrollments, certificates, live classes, and analytics. Built with Node.js and Express, it provides secure, role-based access for students, instructors, and admins, supporting features such as:
-
-                    User authentication and profile management
-                    Course creation, updating, and enrollment
-                    Lesson and quiz management
-                    Student progress tracking
-                    Certificate issuance
-                    Live class scheduling
-                    Platform analytics for instructors and admins
-                    The API is designed for scalability, security, and easy integration with frontend applications, making it suitable for modern online learning environments.</p>
-                <a href="https://github.com/MennaAllahZakaria/Learnfinity" target="_blank">View on GitHub</a>
-            </div>
-            <div class="project-item">
-                <h3>Arabic Spellchecker API</h3>
-                <img src="./images/Arabic Spellchecker.jpg" alt="Arabic Spellchecker API Image" class="project-image">
-                <p>This project is an Arabic spellchecker designed to identify and correct spelling errors in Arabic text. It aims to provide accurate and efficient spellchecking functionality for Arabic language applications.
-
-                        Features
-                        Detects and corrects spelling errors in Arabic text.
-                        Supports diacritics and non-diacritics.
-                        Customizable dictionary for specific use cases.
-                        Lightweight and easy to integrate into existing projects.</p>
-                <a href="https://github.com/MennaAllahZakaria/arabic-spellchecker" target="_blank">View on GitHub</a>
-                <a href="https://arabization.vercel.app/" target="_blank">webSite</a>
-   
-            </div>
-
-            <div class="project-item">
-                <h3>Real-Time Chat App API</h3>
-                <img src="./images/chat app.png" alt="Real-Time Chat App API Image" class="project-image">
-                            <p>This is a real-time chat application built using Node.js, Express, Socket.IO, and MongoDB. It supports multiple chat rooms, private messaging, user authentication, and real-time notifications.
-                            Features:
-                            User Authentication: Register, login, and secure routes using JWT-based authentication.
-                            Chat Rooms: Users can join chat rooms and send/receive messages in real-time.
-                            Private Messaging: Send direct messages to other users.
-                            Real-time Notifications: See when a user is typing and receive real-time messages.
-                            Chat History: Retrieve chat history for both rooms and private conversations.
-                            Tech Stack
-                            Backend: Node.js, Express.js, MongoDB, Mongoose
-                            Real-time Communication: Socket.IO for WebSocket connections
-                            Authentication: JWT (JSON Web Tokens)
-                            Database: MongoDB
-                        </p>
-                <a href="https://github.com/MennaAllahZakaria/chat-app-api" target="_blank">View on GitHub</a>
-            </div>
-
-            <div class="project-item">
-                <h3>Appointment-Booking-System API</h3>
-                <img src="./images/api.jpg" alt="Appointment-Booking-System API Image" class="project-image">
-                <p>This project is a back-end API for managing appointments with integrated online payment functionality and notification system using Twilio for SMS and Nodemiler for email alerts.</p>
-                <a href="https://github.com/MennaAllahZakaria/Appointment-Booking-System-API" target="_blank">View on GitHub</a>
-            </div>
-
-            <div class="project-item">
-                <h3>Content-Aggregator API</h3>
-                <img src="./images/api.jpg" alt="Content-Aggregator API Image" class="project-image">
-                <p>Content Aggregator is a web application that allows users to discover and save content from various external sources. It integrates multiple APIs to gather articles, videos, and other types of content, which can then be categorized, filtered, and bookmarked by users.</p>
-                <a href="https://github.com/MennaAllahZakaria/Content-Aggregator-API" target="_blank">View on GitHub</a>
-            </div>
-
-            <div class="project-item">
-                <h3>E-commerce API</h3>
-                <img src="./images/e-commerce.png" alt="E-commerce API Image" class="project-image">
-                
-                <p>This is a Node.js-based e-commerce API designed to handle the backend operations for an e-commerce platform, including user authentication, product management, order processing, and more.</p>
-                <a href="https://github.com/MennaAllahZakaria/E-Shop-API" target="_blank">View on GitHub</a>
-            </div>
-    
-            <div class="project-item">
-                <h3>TO-DO App</h3>
-                <img src="./images/todo.png" alt="TO-DO App Image" class="project-image">
-                <img src="./images/todo2.png" alt="TO-DO App Image" class="project-image">
-                <img src="./images/todo3.png" alt="TO-DO App Image" class="project-image">
-
-                <p>This project is a full-stack To-Do application.<br/>
-                    Allowing users to create, manage, and track their tasks.<br/>
-                    The application includes a front-end built with React and a back-end powered by Node.js, Express, and MongoDB.</p>
-                <a href="https://github.com/MennaAllahZakaria/TO_DO-APP" target="_blank">View on GitHub</a>
-                <a href="https://to-do-app-menna.netlify.app/" target="_blank">Live</a>
-            </div>
-
-
-
-            <div class="project-item">
-                <h3>Edit Photos</h3>
-                <img src="./images/edit-photos.png" alt="edit-photos Image" class="project-image">
-                <p>This project is to edit the filters of the photo & download it.<br/>
-                Features : (saturate-contrast-brightness-sepia-grayscale-blur-hueRotate)</p>
-                <a href="https://github.com/MennaAllahZakaria/Edit-Photos" target="_blank">View on GitHub</a>
-                <a href="https://edit-photos.netlify.app/" target="_blank">Live</a>
-            </div>
-    
-            <div class="project-item">
-                <h3>Bookstore</h3>
-                <img src="./images/add-book.png" alt="Bookstore Image" class="project-image">
-                <p>Application of book management to store the information of books.<br/>
-                    Made with c#.<br/>
-                    Features : (sign up - login - add new book (book name-auther name-price-catigory-publish date-rate-cover photo)- Edit the book information - Delete the book - Show the details of the book ).</p>
-                </p>
-                <a href="https://github.com/MennaAllahZakaria/Book-Management" target="_blank">View on GitHub</a>
-            </div>
-
-            <div class="project-item">
-                <h3>Note-Pad</h3>
-                <img src="./images/note-app.png" alt="Note-Pad Image" class="project-image">
-                <p> Note pad app with better style then normal note pad <br/>
-                    Made with c#.<br/>
-                    Features : open & save & print files.<br/>
-                                copy & cut & paste & change the font .<br/>
-                                Zoom in & Zoom out.<br/>
-                                Change background color &Change the text color. </p>
-                </p>
-                <a href="https://github.com/MennaAllahZakaria/Note-Pad" target="_blank">View on GitHub</a>
-            </div>
-
-             <div class="project-item">
-                <h3>Weather Wep site</h3>
-                <img src="./images/weather.png" alt="weather Image" class="project-image">
-                <p>This Weather App allows users to search for the current weather conditions in any city around the world. The app fetches data from the OpenWeatherMap API and displays the temperature, humidity, wind speed, and weather conditions.</p>
-                <a href="https://github.com/MennaAllahZakaria/Weather-web-site" target="_blank">View on GitHub</a>
-                <a href="https://weather-web-site-me.netlify.app/" target="_blank">Live</a>
-            </div>    
-
-
-        </div>
-    </section>
-    
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="">
-            <div class="input-group">
-                <div class="form-group">
-                    <div class="input-box">
-                        <input type="text" name="name" placeholder="Your Name" >
-                        <input type="text" name="email" placeholder="Your Email">
-
+            <div class="featured-projects">
+                <article class="featured-project featured-project-dark reveal">
+                    <div class="project-visual project-visual-orb">
+                        <span class="visual-kicker">HACKATHON · 2ND PLACE</span>
+                        <div class="visual-orb-mark"><span>ORB</span><i class="bx bx-up-arrow-alt"></i></div>
+                        <div class="visual-lines" aria-hidden="true"></div>
                     </div>
-
-                    <div class="input-box">
-                        <input type="number" name="phone" placeholder="Phone number" >
-                        <input type="text" name="subject" placeholder="Subject">
-                        
+                    <div class="project-details">
+                        <div class="project-topline"><span class="project-type">Backend / Real-time</span><span class="project-index">01</span></div>
+                        <h3>ORB</h3>
+                        <p>A real-time educational marketplace connecting students and teachers through booking, scheduling, payments, and live negotiation.</p>
+                        <div class="tech-row"><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Socket.IO</span><span>EasyKash</span></div>
+                        <a class="project-link" href="https://github.com/MennaAllahZakaria/ORB" target="_blank" rel="noreferrer">View case study <i class="bx bx-arrow-up-right"></i></a>
                     </div>
+                </article>
+
+                <article class="featured-project featured-project-light reveal reveal-delay">
+                    <div class="project-visual project-visual-trackademic">
+                        <img src="./images/learnfinity.png" alt="TrackAdemic project preview" loading="lazy">
+                        <span class="visual-kicker">FULL-STACK PLATFORM</span>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-topline"><span class="project-type">Full Stack / Education</span><span class="project-index">02</span></div>
+                        <h3>TrackAdemic</h3>
+                        <p>A learning platform with personalized paths, progress analytics, AI-powered chat, and management tools for admins.</p>
+                        <div class="tech-row"><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
+                        <a class="project-link" href="https://track-ademic-front.vercel.app" target="_blank" rel="noreferrer">Visit live product <i class="bx bx-arrow-up-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="featured-project featured-project-image reveal">
+                    <div class="project-visual project-visual-carenest">
+                        <img src="./images/carenest.jpg" alt="CareNest project preview" loading="lazy">
+                        <div class="image-overlay"></div>
+                        <span class="visual-kicker">GRADUATION PROJECT</span>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-topline"><span class="project-type">Backend / Health-tech</span><span class="project-index">03</span></div>
+                        <h3>CareNest</h3>
+                        <p>A maternal and newborn care platform powered by secure APIs, media handling, notifications, and AI-assisted baby health features.</p>
+                        <div class="tech-row"><span>Node.js</span><span>MongoDB</span><span>Cloudinary</span><span>Firebase</span></div>
+                        <a class="project-link" href="https://github.com/Advanced-Infant-Care-Technology/Backend" target="_blank" rel="noreferrer">View on GitHub <i class="bx bx-arrow-up-right"></i></a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="project-list-heading reveal">
+                <p class="eyebrow">More experiments & builds</p>
+                <div class="project-filters" role="group" aria-label="Filter projects">
+                    <button class="filter-button is-active" data-filter="all" type="button">All</button>
+                    <button class="filter-button" data-filter="backend" type="button">Backend</button>
+                    <button class="filter-button" data-filter="fullstack" type="button">Full-stack</button>
+                    <button class="filter-button" data-filter="frontend" type="button">Frontend</button>
                 </div>
             </div>
-            <div class="input-group-2">
-                <textarea name="message" placeholder="Your Message"></textarea>
-                <input type="submit" value="Send Message" class="btn">
+            <div class="project-grid compact-grid">
+                <article class="project-card reveal" data-category="backend">
+                    <div class="card-icon"><i class="bx bx-layer"></i></div><span class="card-type">Backend API</span><h3>Learnfinity API</h3><p>Scalable e-learning API for courses, quizzes, enrollments, certificates, live classes, and analytics.</p><div class="card-footer"><span>Node · Express · MongoDB</span><a href="https://github.com/MennaAllahZakaria/Learnfinity" target="_blank" rel="noreferrer" aria-label="View Learnfinity API on GitHub"><i class="bx bx-arrow-up-right"></i></a></div>
+                </article>
+                <article class="project-card reveal reveal-delay" data-category="backend">
+                    <div class="card-icon"><i class="bx bx-message-rounded-dots"></i></div><span class="card-type">Backend / Real-time</span><h3>Chat App API</h3><p>Rooms, private messaging, typing indicators, chat history, and JWT authentication over Socket.IO.</p><div class="card-footer"><span>Node · Socket.IO · MongoDB</span><a href="https://github.com/MennaAllahZakaria/chat-app-api" target="_blank" rel="noreferrer" aria-label="View Chat App API on GitHub"><i class="bx bx-arrow-up-right"></i></a></div>
+                </article>
+                <article class="project-card reveal" data-category="backend">
+                    <div class="card-icon"><i class="bx bx-calendar-check"></i></div><span class="card-type">Backend API</span><h3>Appointment System</h3><p>Appointment booking with online payments, SMS notifications, and email alerts.</p><div class="card-footer"><span>Node · APIs · Payments</span><a href="https://github.com/MennaAllahZakaria/Appointment-Booking-System-API" target="_blank" rel="noreferrer" aria-label="View Appointment System on GitHub"><i class="bx bx-arrow-up-right"></i></a></div>
+                </article>
+                <article class="project-card reveal reveal-delay" data-category="backend">
+                    <div class="card-icon"><i class="bx bx-store-alt"></i></div><span class="card-type">Backend API</span><h3>E-Shop API</h3><p>Commerce backend covering authentication, product management, orders, and core store operations.</p><div class="card-footer"><span>Node · Express · MongoDB</span><a href="https://github.com/MennaAllahZakaria/E-Shop-API" target="_blank" rel="noreferrer" aria-label="View E-Shop API on GitHub"><i class="bx bx-arrow-up-right"></i></a></div>
+                </article>
+                <article class="project-card reveal" data-category="fullstack">
+                    <div class="card-icon"><i class="bx bx-check-square"></i></div><span class="card-type">Full-stack app</span><h3>To-Do App</h3><p>A focused task management app with a React frontend and Node.js, Express, and MongoDB backend.</p><div class="card-footer"><span>React · Node · MongoDB</span><a href="https://to-do-app-menna.netlify.app/" target="_blank" rel="noreferrer" aria-label="View To-Do App live"><i class="bx bx-arrow-up-right"></i></a></div>
+                </article>
+                <article class="project-card reveal" data-category="frontend">
+                    <div class="card-icon"><i class="bx bx-sun"></i></div><span class="card-type">Frontend app</span><h3>Weather Dashboard</h3><p>Search worldwide weather conditions with a clean interface powered by the OpenWeatherMap API.</p><div class="card-footer"><span>JavaScript · API integration</span><a href="https://weather-web-site-me.netlify.app/" target="_blank" rel="noreferrer" aria-label="View Weather Dashboard live"><i class="bx bx-arrow-up-right"></i></a></div>
+                </article>
             </div>
+        </section>
 
-        </form>
-    </section>
+        <section class="toolkit section-shell section-grid" id="toolkit">
+            <div class="section-intro reveal"><p class="eyebrow">03 / Toolkit</p><h2>The tools I use to turn ideas into working products.</h2></div>
+            <div class="toolkit-content reveal reveal-delay">
+                <div class="tool-group"><span class="tool-label">Backend</span><div class="tool-tags"><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>Socket.IO</span><span>JWT</span></div></div>
+                <div class="tool-group"><span class="tool-label">Data</span><div class="tool-tags"><span>MongoDB</span><span>PostgreSQL</span><span>Mongoose</span><span>Database design</span></div></div>
+                <div class="tool-group"><span class="tool-label">Full-stack</span><div class="tool-tags"><span>React.js</span><span>JavaScript</span><span>HTML</span><span>CSS</span></div></div>
+                <div class="tool-group"><span class="tool-label">Foundations</span><div class="tool-tags"><span>Git & GitHub</span><span>OOP</span><span>DSA</span><span>System design</span></div></div>
+            </div>
+        </section>
 
-    <footer class="footer">
-        <div class="social">
-            <a href="https://github.com/MennaAllahZakaria" target="_blank"><i class='bx bxl-github'></i></a>
-            <a href="https://www.linkedin.com/in/menna-zakaria-476220239/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://www.facebook.com/mennazakaria0/" target="_blank"><i class='bx bxl-facebook'></i></a>
-            <a href="https://twitter.com/MennaZekooo" target="_blank"><i class='bx bxl-twitter'></i></a>
-            <a href="mailto:mennazakaria2003@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>   
+        <section class="journey section-shell" id="journey">
+            <div class="section-heading reveal"><div><p class="eyebrow">04 / Journey</p><h2>Still curious. Still building.</h2></div><p class="section-note">A short timeline of the experiences that shaped how I think about software.</p></div>
+            <div class="journey-list">
+                <div class="journey-item reveal"><span class="journey-year">2025</span><div><h3>B.Sc. Computer Science & Information Systems</h3><p>Suez Canal University · Very Good with Honors (83.23%)</p></div><span class="journey-tag">Education</span></div>
+                <div class="journey-item reveal reveal-delay"><span class="journey-year">2025</span><div><h3>Freelance Web Developer · Swift Build</h3><p>Built and deployed a bilingual Arabic/English business website for a Saudi-based company.</p></div><span class="journey-tag">Experience</span></div>
+                <div class="journey-item reveal"><span class="journey-year">2024</span><div><h3>React Frontend Training · ITI</h3><p>Built stronger foundations in component-driven interfaces and frontend application development.</p></div><span class="journey-tag">Training</span></div>
+                <div class="journey-item reveal reveal-delay"><span class="journey-year">2023</span><div><h3>Backend Training · ITI</h3><p>Deepened practical experience with Node.js, Express.js, and MongoDB.</p></div><span class="journey-tag">Training</span></div>
+            </div>
+        </section>
 
-        </div>
-        <ul class="list">
-            <li>
-                <a href="#">FAQ</a>
-            </li>
-            <li>
-                <a href="#home">About me</a>
-            </li>
-            <li>
-                <a href="#services">Services</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-        </ul>
-        <p class="copyright">Copyright &copy; 2024 | Designed by <span>Menna Zakaria</span></a></p>
-        
+        <section class="contact section-shell" id="contact">
+            <div class="contact-panel reveal">
+                <div><p class="eyebrow">05 / Contact</p><h2>Have a product in mind?<br><span>Let's make it real.</span></h2></div>
+                <div class="contact-copy"><p>I'm open to backend opportunities, collaborative builds, and conversations about products that need a thoughtful technical foundation.</p><a class="button button-light" href="mailto:mennazakaria2003@gmail.com">Email me <i class="bx bx-envelope"></i></a></div>
+            </div>
+            <div class="contact-links reveal reveal-delay"><a href="mailto:mennazakaria2003@gmail.com"><span>Email</span><strong>mennazakaria2003@gmail.com</strong></a><a href="https://github.com/MennaAllahZakaria" target="_blank" rel="noreferrer"><span>GitHub</span><strong>@MennaAllahZakaria</strong></a><a href="https://www.linkedin.com/in/menna-zakaria-" target="_blank" rel="noreferrer"><span>LinkedIn</span><strong>/in/menna-zakaria-</strong></a></div>
+        </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+        <a href="#home" class="brand"><span class="brand-mark">MZ</span><span class="brand-name">Menna <em>Zakaria</em></span></a>
+        <p>Backend developer · full-stack builder · problem solver</p>
+        <span class="footer-copy">© <span id="current-year">2025</span> Menna Zakaria</span>
     </footer>
-
-
     <script src="./main.js"></script>
 </body>
 </html>
