@@ -4,7 +4,7 @@ A responsive personal portfolio for Menna Zakaria, a Backend Developer focused o
 
 ## Live site
 
-[portfolio-menna-zakaria.netlify.app](https://portfolio-menna-zakaria.netlify.app/)
+[menna-zakaria-portfolio.vercel.app/](https://menna-zakaria-portfolio.vercel.app/)
 
 ## What changed
 
