@@ -1,20 +1,24 @@
 # Menna Zakaria — Portfolio
 
-A responsive personal portfolio for Menna Zakaria, a Backend Developer focused on reliable APIs, real-time systems, and full-stack products.
+A responsive personal portfolio for Menna Zakaria, a Backend Developer focused on reliable APIs, real-time systems, and thoughtful full-stack products.
 
 ## Live site
 
-[menna-zakaria-portfolio.vercel.app/](https://menna-zakaria-portfolio.vercel.app/)
+[portfolio-menna-zakaria.netlify.app](https://portfolio-menna-zakaria.netlify.app/)
 
-## What changed
+## About the project
 
-The portfolio now uses a dark editorial visual system with a near-black green base, warm off-white typography, mint accents, restrained motion, and a clearer project hierarchy. ORB, TrackAdemic, and CareNest are presented as featured case studies, while additional projects can be explored through backend, full-stack, and frontend filters.
+This is a lightweight static portfolio built with semantic HTML, custom CSS, and vanilla JavaScript. It presents Menna's strongest backend, real-time, full-stack, and freelance work without requiring a build step.
 
-The page is fully responsive, includes a working mobile navigation menu, animated section reveals, accessible image descriptions, SEO and Open Graph metadata, direct contact links, and a focused toolkit section for Menna's backend and full-stack skills.
+The featured section highlights **ORB**, **Sheftaya**, **Swift Build**, **TrackAdemic**, and **CareNest**. The compact project grid contains additional APIs and applications with backend, full-stack, and frontend filters.
 
 ## Stack
 
-The site is intentionally lightweight and static. It uses semantic HTML5, custom CSS with responsive Grid and Flexbox layouts, vanilla JavaScript for navigation, filtering, scroll state, and reveal animations, Google Fonts, and Boxicons. It is suitable for continuous deployment on Netlify.
+- Semantic HTML5
+- Custom CSS with responsive Grid and Flexbox layouts
+- Vanilla JavaScript for navigation, filters, scroll state, and reveal animations
+- Google Fonts and Boxicons
+- Netlify/Vercel-compatible relative asset paths
 
 ## Run locally
 
@@ -24,22 +28,48 @@ cd Portfolio
 npx --yes http-server -p 4173
 ```
 
-Then open `http://localhost:4173` in a browser. The project can also be opened directly through `index.html`, although a local server is recommended for the most accurate browser behavior.
+Then open `http://localhost:4173` in a browser. A local server is recommended because it matches deployed relative-path behavior more closely than opening `index.html` directly.
 
 ## Project structure
 
 ```text
-├── index.html       # Page structure, content, metadata, and project links
-├── styles.css       # Design system, responsive layouts, and animations
-├── main.js          # Navigation, filters, active sections, and reveal behavior
-├── images/          # Portfolio and project imagery
-└── README.md        # Project documentation
+├── index.html                    # Page structure, copy, metadata, and project links
+├── assets/
+│   ├── css/
+│   │   └── styles.css            # Colors, layout, responsive rules, and animations
+│   ├── js/
+│   │   └── main.js               # Menu, filters, active navigation, reveals, and year
+│   └── images/
+│       ├── profile/              # Personal/profile images
+│       ├── featured/             # Images used by large featured project cards
+│       └── archive/              # Older project, certificate, and practice images
+├── docs/
+│   └── MAINTAINING.md            # Detailed guide for future updates
+└── README.md
 ```
 
-## Featured work
+## Making future updates
 
-The selected work section highlights ORB, a real-time educational marketplace; TrackAdemic, a full-stack learning platform; and CareNest, a maternal and newborn care platform. The site also links to additional APIs and applications from Menna's public GitHub profile.
+Visible content belongs in `index.html`. Styling belongs in `assets/css/styles.css`, interactions belong in `assets/js/main.js`, and media belongs in the appropriate `assets/images/` folder.
+
+For a new featured screenshot, place the file in `assets/images/featured/`, reference it with a relative path such as `./assets/images/featured/project.png`, and add accurate alt text. For a profile image, use `assets/images/profile/`.
+
+For a new project, update its title, description, category, technology labels, and public repository or live link together. Keep descriptions specific to the product and the work completed instead of using generic claims.
+
+Read [docs/MAINTAINING.md](docs/MAINTAINING.md) before making structural changes.
+
+## Quality checks
+
+```bash
+git diff --check
+```
+
+Before pushing, verify that all images load, the mobile menu opens and closes, filters work, links point to the intended destinations, and longer descriptions do not overflow on mobile.
 
 ## Author
 
 **Menna Zakaria** — [GitHub](https://github.com/MennaAllahZakaria) · [LinkedIn](https://www.linkedin.com/in/menna-zakaria-) · [Email](mailto:mennazakaria2003@gmail.com)
+
+## Security
+
+Do not add API keys, passwords, private client information, or unpublished screenshots to this public repository.
