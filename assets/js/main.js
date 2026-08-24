@@ -6,6 +6,7 @@ const sections = [...document.querySelectorAll('main section[id]')];
 const revealItems = [...document.querySelectorAll('.reveal')];
 const filterButtons = [...document.querySelectorAll('.filter-button')];
 const projectCards = [...document.querySelectorAll('.project-card')];
+const toolChips = [...document.querySelectorAll('.tool-chip')];
 const year = document.querySelector('#current-year');
 
 function closeMenu() {
@@ -49,6 +50,13 @@ filterButtons.forEach((button) => {
         const filter = button.dataset.filter;
         filterButtons.forEach((item) => item.classList.toggle('is-active', item === button));
         projectCards.forEach((card) => card.classList.toggle('is-hidden', filter !== 'all' && card.dataset.category !== filter));
+    });
+});
+
+toolChips.forEach((chip) => {
+    chip.addEventListener('click', () => {
+        const selected = chip.classList.toggle('is-selected');
+        chip.setAttribute('aria-pressed', String(selected));
     });
 });
 
